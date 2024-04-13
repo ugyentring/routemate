@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div>
-      footer
-    </div>
-  )
-}
+    <footer>
+      <Link to="/">2024 URoute</Link>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;
