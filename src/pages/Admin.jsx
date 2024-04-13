@@ -1,10 +1,9 @@
-
 const Admin = () => {
   return (
-    <div className="component">
-      welcone to the admin
-    </div>
-  )
-}
+    <main>
+      <div className="component">welcone to the admin</div>
+    </main>
+  );
+};
 
-export default Admin
+export default Admin;

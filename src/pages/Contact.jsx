@@ -7,10 +7,10 @@ const Contact = () => {
     navigate("/");
   };
   return (
-    <>
+    <main>
       <div className="component">contact</div>
       <button onClick={handleSubmit}>Back Home</button>
-    </>
+    </main>
   );
 };
 

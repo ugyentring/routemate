@@ -5,9 +5,11 @@ const ProductList = () => {
   const location = useLocation();
   return (
     <>
-      <div className="component">
-        <h1>Productlist</h1>
-      </div>
+      <main>
+        <div className="component">
+          <h1>Productlist</h1>
+        </div>
+      </main>
     </>
   );
 };
