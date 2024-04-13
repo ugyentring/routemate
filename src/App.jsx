@@ -1,12 +1,13 @@
 import { Routes, Route, Navigate } from "react-router-dom";
-import Home from "./components/Home";
-import ProductList from "./components/ProductList";
-import ProductDetails from "./components/ProductDetails";
-import Contact from "./components/Contact";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Admin from "./components/Admin";
-import PageNotFound from "./components/PageNotFound"
+import { Header, Footer } from "./components";
+import {
+  Home,
+  Admin,
+  ProductDetails,
+  ProductList,
+  PageNotFound,
+  Contact,
+} from "./pages";
 import "./App.css";
 
 const App = () => {
@@ -24,7 +25,7 @@ const App = () => {
             path="admin"
             element={user ? <Admin /> : <Navigate to="/" />}
           />
-          <Route path="*" element={<PageNotFound/>}/>
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </main>
 
