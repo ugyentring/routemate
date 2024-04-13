@@ -1,7 +1,7 @@
 
 const ProductList = () => {
   return (
-    <div>
+    <div className="component">
       ProductList
     </div>
   )
